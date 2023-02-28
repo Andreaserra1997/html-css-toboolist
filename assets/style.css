@@ -24,17 +24,19 @@ header {
 
 .background {
     width: 100%;
-    height: 900px;
+    height: 700px;
     background-color: #F6F8F9;
 }
 
 .conteiner {
     width: 800px;
-    height: 700px;
+    height: 550px;
     position: absolute;
     margin-top: 30px;
     margin-left: 160px;
-    background-color: white
+    background-color: white;
+    border-radius: 10px;
+    
 }
 
 .subtitle{
@@ -60,4 +62,58 @@ header {
     border-color: lightgray;
     padding: 5px;
     border-radius: 4px;
+}
+
+.text{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.first-text,
+.second-text {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+.correct {
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid rgb(140, 224, 15);
+    border-radius: 20px;
+    color: rgb(140, 224, 15);
+}
+
+.wrong {
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: red;
+}
+
+.button-text{
+    border: 1px;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.edit {
+    background-color: #46ACF1;
+}
+
+.q1 {
+    background-color: violet;
+}
+
+.rec {
+    background-color: green;
+}
+
+.mob {
+    background-color: orange;
 }
